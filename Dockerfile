@@ -2,7 +2,7 @@ RUN yum -y update &&  yum -y install initscripts && yum -y install git && yum -y
 VOLUME /tmp
 ARG JAR_FILE
 WORKDIR /
-COPY ${JAR_FILE} JAR_파일명.jar
+COPY ${JAR_FILE} app.jar
 COPY entrypoint.sh entrypoint.sh
 RUN chmod 755 /entrypoint.sh
 RUN mkdir /logs
