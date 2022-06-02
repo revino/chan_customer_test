@@ -4,10 +4,6 @@ VOLUME /tmp
 ARG JAR_FILE
 WORKDIR /
 COPY ${JAR_FILE} app.jar
-COPY entrypoint.sh entrypoint.sh
-RUN chmod 755 /entrypoint.sh
-RUN mkdir /logs
-RUN touch /logs/ChanOrder.log
 WORKDIR /
-EXPOSE 7777/tcp
-ENTRYPOINT ["sh", "entrypoint.sh"]
+EXPOSE 8080/tcp
+ENTRYPOINT ["java","-jar","/app.jar"]
