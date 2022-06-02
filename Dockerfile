@@ -1,4 +1,12 @@
-FROM amazoncorretto:11
-ARG JAR_FILE=build/libs/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+RUN yum -y update &&  yum -y install initscripts && yum -y install git && yum -y install java-11-openjdk && yum -y install wget && yum -y install telnet && yum -y install net-tools && yum clean all && yum clean metadata && rm -rf /var/cache/yum/*
+VOLUME /tmp
+ARG JAR_FILE
+WORKDIR /
+COPY ${JAR_FILE} JAR_파일명.jar
+COPY entrypoint.sh entrypoint.sh
+RUN chmod 755 /entrypoint.sh
+RUN mkdir /logs
+RUN touch /logs/ChanOrder.log
+WORKDIR /
+EXPOSE 7777/tcp
+ENTRYPOINT ["sh", "entrypoint.sh"]
