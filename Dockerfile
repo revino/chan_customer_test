@@ -1,4 +1,4 @@
 FROM amazoncorretto:11
-COPY ${JAR_FILE} app.jar
+COPY build/libs/*.jar app.jar
 EXPOSE 80/tcp
 ENTRYPOINT ["java","-jar","/app.jar"]
