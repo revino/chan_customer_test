@@ -8,7 +8,7 @@ public class Hello {
 
     @GetMapping("/")
     public String Hi(){
-        return "hi";
+        return "hi hi";
     }
 
     @GetMapping("/hello")
