@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChanOrerSampleApplication {
+public class ChanCustomerSampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ChanOrerSampleApplication.class, args);
+        SpringApplication.run(ChanCustomerSampleApplication.class, args);
     }
 
 }
