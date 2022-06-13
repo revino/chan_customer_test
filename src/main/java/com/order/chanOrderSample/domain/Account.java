@@ -1,4 +1,4 @@
-package com.order.chanOrderSample;
+package com.order.chanOrderSample.domain;
 
 import lombok.*;
 
