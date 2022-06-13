@@ -1,4 +1,4 @@
-package com.customer.chanCustomerSample.domain;
+package com.chan.CustomerSample.domain;
 
 import lombok.*;
 

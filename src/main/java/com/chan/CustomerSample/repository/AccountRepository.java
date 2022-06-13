@@ -1,6 +1,6 @@
-package com.customer.chanCustomerSample.repository;
+package com.chan.CustomerSample.repository;
 
-import com.customer.chanCustomerSample.domain.Account;
+import com.chan.CustomerSample.domain.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AccountRepository extends JpaRepository<Account, Long> {

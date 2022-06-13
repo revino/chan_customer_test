@@ -1,8 +1,8 @@
-package com.customer.chanCustomerSample.service;
+package com.chan.CustomerSample.service;
 
-import com.customer.chanCustomerSample.dto.AccountDto;
-import com.customer.chanCustomerSample.repository.AccountRepository;
-import com.customer.chanCustomerSample.domain.Account;
+import com.chan.CustomerSample.dto.AccountDto;
+import com.chan.CustomerSample.repository.AccountRepository;
+import com.chan.CustomerSample.domain.Account;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

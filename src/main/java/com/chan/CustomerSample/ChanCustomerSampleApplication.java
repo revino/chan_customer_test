@@ -1,4 +1,4 @@
-package com.customer.chanCustomerSample;
+package com.chan.CustomerSample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,8 @@
-package com.customer.chanCustomerSample.controller;
+package com.chan.CustomerSample.controller;
 
-import com.customer.chanCustomerSample.dto.AccountDto;
-import com.customer.chanCustomerSample.domain.Account;
-import com.customer.chanCustomerSample.service.AccountService;
+import com.chan.CustomerSample.domain.Account;
+import com.chan.CustomerSample.dto.AccountDto;
+import com.chan.CustomerSample.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

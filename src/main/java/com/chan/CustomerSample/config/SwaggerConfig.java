@@ -1,4 +1,4 @@
-package com.customer.chanCustomerSample.config;
+package com.chan.CustomerSample.config;
 
 import jdk.javadoc.doclet.Doclet;
 import org.springframework.context.annotation.Bean;
