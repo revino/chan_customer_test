@@ -1,4 +1,4 @@
-package com.order.chanOrderSample;
+package com.customer.chanCustomerSample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

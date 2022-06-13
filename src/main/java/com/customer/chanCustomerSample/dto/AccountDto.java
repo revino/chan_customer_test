@@ -1,6 +1,6 @@
-package com.order.chanOrderSample.dto;
+package com.customer.chanCustomerSample.dto;
 
-import com.order.chanOrderSample.domain.Account;
+import com.customer.chanCustomerSample.domain.Account;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

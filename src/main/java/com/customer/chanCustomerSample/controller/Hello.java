@@ -1,4 +1,4 @@
-package com.order.chanOrderSample.controller;
+package com.customer.chanCustomerSample.controller;
 
 import io.swagger.annotations.ApiResponse;
 import io.swagger.v3.oas.annotations.Operation;
