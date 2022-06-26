@@ -20,6 +20,7 @@ services:
       - postgresdb # db가 뜬 후에 app이 뜰 수 있도록 depends_on 설정
     environment: # springboot의 application-*.yml에 주입 필요한 정보
       PROFILE: "local"
+      ENDPOINT_SELLER: ""
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgresdb:5432/springboot
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: 1234
